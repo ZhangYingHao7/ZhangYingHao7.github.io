@@ -45,6 +45,7 @@ nav a{
     transition: all 0.3s;
     font-size: 18px;
 }
+
 nav a:hover{
     color: #ddd;
 }
@@ -57,7 +58,7 @@ nav a:hover{
     text-transform: uppercase;
 }
 #nav-bg2{
-    background-color: #222; 
+    background-color: rgb(107, 107, 107); 
     position: fixed;
     height: 5em;
     width: 100%;
@@ -81,7 +82,7 @@ header h1{
     margin-top: -40px;
 }
 #about{
-    background-color: #e7e3da;
+    background-color: #fff;
     height: 70em;
     padding: 5em 0;
 }
@@ -89,7 +90,16 @@ header h1{
     line-height: 2em;
     font-size: 1.4em;
     margin: 0;
-    color: #222;
+    color: rgb(153, 153, 153);
+    z-index: 4;
+}
+.add{
+    position: flex;
+    justify-self: end;
+    width: 500px;
+    height: 50%;
+    margin-left: 1200px;
+    margin-top: -800px;
 }
 audio{
     display: none;
